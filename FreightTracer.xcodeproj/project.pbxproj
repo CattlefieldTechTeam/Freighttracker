@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBE954F81DF898E300D9DEDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE954F71DF898E300D9DEDE /* main.m */; };
+		CBE954FB1DF898E300D9DEDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE954FA1DF898E300D9DEDE /* AppDelegate.m */; };
+		CBE954FE1DF898E300D9DEDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE954FD1DF898E300D9DEDE /* ViewController.m */; };
+		CBE955011DF898E300D9DEDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE954FF1DF898E300D9DEDE /* Main.storyboard */; };
+		CBE955031DF898E300D9DEDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE955021DF898E300D9DEDE /* Assets.xcassets */; };
+		CBE955061DF898E300D9DEDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE955041DF898E300D9DEDE /* LaunchScreen.storyboard */; };
+		CBE955111DF898E300D9DEDE /* FreightTracerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE955101DF898E300D9DEDE /* FreightTracerTests.m */; };
+		CBE9551C1DF898E300D9DEDE /* FreightTracerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9551B1DF898E300D9DEDE /* FreightTracerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBE9550D1DF898E300D9DEDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBE954EB1DF898E300D9DEDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE954F21DF898E300D9DEDE;
+			remoteInfo = FreightTracer;
+		};
+		CBE955181DF898E300D9DEDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBE954EB1DF898E300D9DEDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE954F21DF898E300D9DEDE;
+			remoteInfo = FreightTracer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBE954F31DF898E300D9DEDE /* FreightTracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreightTracer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE954F71DF898E300D9DEDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBE954F91DF898E300D9DEDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBE954FA1DF898E300D9DEDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBE954FC1DF898E300D9DEDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBE954FD1DF898E300D9DEDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBE955001DF898E300D9DEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBE955021DF898E300D9DEDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBE955051DF898E300D9DEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBE955071DF898E300D9DEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE9550C1DF898E300D9DEDE /* FreightTracerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreightTracerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE955101DF898E300D9DEDE /* FreightTracerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreightTracerTests.m; sourceTree = "<group>"; };
+		CBE955121DF898E300D9DEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE955171DF898E300D9DEDE /* FreightTracerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreightTracerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE9551B1DF898E300D9DEDE /* FreightTracerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreightTracerUITests.m; sourceTree = "<group>"; };
+		CBE9551D1DF898E300D9DEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBE954F01DF898E300D9DEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE955091DF898E300D9DEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE955141DF898E300D9DEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBE954EA1DF898E300D9DEDE = {
+			isa = PBXGroup;
+			children = (
+				CBE954F51DF898E300D9DEDE /* FreightTracer */,
+				CBE9550F1DF898E300D9DEDE /* FreightTracerTests */,
+				CBE9551A1DF898E300D9DEDE /* FreightTracerUITests */,
+				CBE954F41DF898E300D9DEDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBE954F41DF898E300D9DEDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBE954F31DF898E300D9DEDE /* FreightTracer.app */,
+				CBE9550C1DF898E300D9DEDE /* FreightTracerTests.xctest */,
+				CBE955171DF898E300D9DEDE /* FreightTracerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBE954F51DF898E300D9DEDE /* FreightTracer */ = {
+			isa = PBXGroup;
+			children = (
+				CBE954F91DF898E300D9DEDE /* AppDelegate.h */,
+				CBE954FA1DF898E300D9DEDE /* AppDelegate.m */,
+				CBE954FC1DF898E300D9DEDE /* ViewController.h */,
+				CBE954FD1DF898E300D9DEDE /* ViewController.m */,
+				CBE954FF1DF898E300D9DEDE /* Main.storyboard */,
+				CBE955021DF898E300D9DEDE /* Assets.xcassets */,
+				CBE955041DF898E300D9DEDE /* LaunchScreen.storyboard */,
+				CBE955071DF898E300D9DEDE /* Info.plist */,
+				CBE954F61DF898E300D9DEDE /* Supporting Files */,
+			);
+			path = FreightTracer;
+			sourceTree = "<group>";
+		};
+		CBE954F61DF898E300D9DEDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBE954F71DF898E300D9DEDE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBE9550F1DF898E300D9DEDE /* FreightTracerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBE955101DF898E300D9DEDE /* FreightTracerTests.m */,
+				CBE955121DF898E300D9DEDE /* Info.plist */,
+			);
+			path = FreightTracerTests;
+			sourceTree = "<group>";
+		};
+		CBE9551A1DF898E300D9DEDE /* FreightTracerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBE9551B1DF898E300D9DEDE /* FreightTracerUITests.m */,
+				CBE9551D1DF898E300D9DEDE /* Info.plist */,
+			);
+			path = FreightTracerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBE954F21DF898E300D9DEDE /* FreightTracer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE955201DF898E300D9DEDE /* Build configuration list for PBXNativeTarget "FreightTracer" */;
+			buildPhases = (
+				CBE954EF1DF898E300D9DEDE /* Sources */,
+				CBE954F01DF898E300D9DEDE /* Frameworks */,
+				CBE954F11DF898E300D9DEDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreightTracer;
+			productName = FreightTracer;
+			productReference = CBE954F31DF898E300D9DEDE /* FreightTracer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBE9550B1DF898E300D9DEDE /* FreightTracerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE955231DF898E300D9DEDE /* Build configuration list for PBXNativeTarget "FreightTracerTests" */;
+			buildPhases = (
+				CBE955081DF898E300D9DEDE /* Sources */,
+				CBE955091DF898E300D9DEDE /* Frameworks */,
+				CBE9550A1DF898E300D9DEDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBE9550E1DF898E300D9DEDE /* PBXTargetDependency */,
+			);
+			name = FreightTracerTests;
+			productName = FreightTracerTests;
+			productReference = CBE9550C1DF898E300D9DEDE /* FreightTracerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBE955161DF898E300D9DEDE /* FreightTracerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE955261DF898E300D9DEDE /* Build configuration list for PBXNativeTarget "FreightTracerUITests" */;
+			buildPhases = (
+				CBE955131DF898E300D9DEDE /* Sources */,
+				CBE955141DF898E300D9DEDE /* Frameworks */,
+				CBE955151DF898E300D9DEDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBE955191DF898E300D9DEDE /* PBXTargetDependency */,
+			);
+			name = FreightTracerUITests;
+			productName = FreightTracerUITests;
+			productReference = CBE955171DF898E300D9DEDE /* FreightTracerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBE954EB1DF898E300D9DEDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Animesh Jana";
+				TargetAttributes = {
+					CBE954F21DF898E300D9DEDE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CBE9550B1DF898E300D9DEDE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CBE954F21DF898E300D9DEDE;
+					};
+					CBE955161DF898E300D9DEDE = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CBE954F21DF898E300D9DEDE;
+					};
+				};
+			};
+			buildConfigurationList = CBE954EE1DF898E300D9DEDE /* Build configuration list for PBXProject "FreightTracer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBE954EA1DF898E300D9DEDE;
+			productRefGroup = CBE954F41DF898E300D9DEDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBE954F21DF898E300D9DEDE /* FreightTracer */,
+				CBE9550B1DF898E300D9DEDE /* FreightTracerTests */,
+				CBE955161DF898E300D9DEDE /* FreightTracerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBE954F11DF898E300D9DEDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE955061DF898E300D9DEDE /* LaunchScreen.storyboard in Resources */,
+				CBE955031DF898E300D9DEDE /* Assets.xcassets in Resources */,
+				CBE955011DF898E300D9DEDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE9550A1DF898E300D9DEDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE955151DF898E300D9DEDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBE954EF1DF898E300D9DEDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE954FE1DF898E300D9DEDE /* ViewController.m in Sources */,
+				CBE954FB1DF898E300D9DEDE /* AppDelegate.m in Sources */,
+				CBE954F81DF898E300D9DEDE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE955081DF898E300D9DEDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE955111DF898E300D9DEDE /* FreightTracerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE955131DF898E300D9DEDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE9551C1DF898E300D9DEDE /* FreightTracerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBE9550E1DF898E300D9DEDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBE954F21DF898E300D9DEDE /* FreightTracer */;
+			targetProxy = CBE9550D1DF898E300D9DEDE /* PBXContainerItemProxy */;
+		};
+		CBE955191DF898E300D9DEDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBE954F21DF898E300D9DEDE /* FreightTracer */;
+			targetProxy = CBE955181DF898E300D9DEDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBE954FF1DF898E300D9DEDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE955001DF898E300D9DEDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBE955041DF898E300D9DEDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE955051DF898E300D9DEDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBE9551E1DF898E300D9DEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBE9551F1DF898E300D9DEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBE955211DF898E300D9DEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreightTracer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ctpil.FreightTracer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBE955221DF898E300D9DEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreightTracer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ctpil.FreightTracer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBE955241DF898E300D9DEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreightTracerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ctpil.FreightTracerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreightTracer.app/FreightTracer";
+			};
+			name = Debug;
+		};
+		CBE955251DF898E300D9DEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreightTracerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ctpil.FreightTracerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreightTracer.app/FreightTracer";
+			};
+			name = Release;
+		};
+		CBE955271DF898E300D9DEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FreightTracerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ctpil.FreightTracerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FreightTracer;
+			};
+			name = Debug;
+		};
+		CBE955281DF898E300D9DEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FreightTracerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ctpil.FreightTracerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FreightTracer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBE954EE1DF898E300D9DEDE /* Build configuration list for PBXProject "FreightTracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE9551E1DF898E300D9DEDE /* Debug */,
+				CBE9551F1DF898E300D9DEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE955201DF898E300D9DEDE /* Build configuration list for PBXNativeTarget "FreightTracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE955211DF898E300D9DEDE /* Debug */,
+				CBE955221DF898E300D9DEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBE955231DF898E300D9DEDE /* Build configuration list for PBXNativeTarget "FreightTracerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE955241DF898E300D9DEDE /* Debug */,
+				CBE955251DF898E300D9DEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBE955261DF898E300D9DEDE /* Build configuration list for PBXNativeTarget "FreightTracerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE955271DF898E300D9DEDE /* Debug */,
+				CBE955281DF898E300D9DEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBE954EB1DF898E300D9DEDE /* Project object */;
+}
