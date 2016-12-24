@@ -1,4 +1,5 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C858659A6F7943D0CB18629EBED0B1F257ABA49D",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "32654464-b864-3349-ac7a-73751c369be3++1039" : {
 
@@ -8,11 +9,13 @@
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C858659A6F7943D0CB18629EBED0B1F257ABA49D" : 0,
     "32654464-b864-3349-ac7a-73751c369be3++1039" : 0,
     "64379e1d-8715-424b-80b7-b2a2c0677e65++9478" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0C826D3C-408D-4476-88FB-087299B910AD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C858659A6F7943D0CB18629EBED0B1F257ABA49D" : "FreightTracer\/",
     "32654464-b864-3349-ac7a-73751c369be3++1039" : "FreightTracer\/FreightTracer\/Common\/Reachability\/",
     "64379e1d-8715-424b-80b7-b2a2c0677e65++9478" : "FreightTracer\/FreightTracer\/Common\/"
   },
@@ -29,6 +32,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.0.8.252:10001\/svn\/SmartyPin",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "64379e1d-8715-424b-80b7-b2a2c0677e65++9478"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CattlefieldTechTeam\/Freighttracker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C858659A6F7943D0CB18629EBED0B1F257ABA49D"
     }
   ]
 }
