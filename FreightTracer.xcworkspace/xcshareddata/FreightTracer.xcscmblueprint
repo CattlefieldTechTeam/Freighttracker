@@ -1,0 +1,34 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "32654464-b864-3349-ac7a-73751c369be3++1039" : {
+
+    },
+    "64379e1d-8715-424b-80b7-b2a2c0677e65++9478" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "32654464-b864-3349-ac7a-73751c369be3++1039" : 0,
+    "64379e1d-8715-424b-80b7-b2a2c0677e65++9478" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0C826D3C-408D-4476-88FB-087299B910AD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "32654464-b864-3349-ac7a-73751c369be3++1039" : "FreightTracer\/FreightTracer\/Common\/Reachability\/",
+    "64379e1d-8715-424b-80b7-b2a2c0677e65++9478" : "FreightTracer\/FreightTracer\/Common\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FreightTracer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FreightTracer.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.0.8.252:10001\/svn\/EPF",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "32654464-b864-3349-ac7a-73751c369be3++1039"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.0.8.252:10001\/svn\/SmartyPin",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "64379e1d-8715-424b-80b7-b2a2c0677e65++9478"
+    }
+  ]
+}

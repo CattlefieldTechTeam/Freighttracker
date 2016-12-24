@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  FreightTracer
+//  Testbackgroundfetch
 //
-//  Created by Animesh Jana on 08/12/16.
+//  Created by Animesh Jana on 02/12/16.
 //  Copyright © 2016 Animesh Jana. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "MyshipmentVC/MyshipmentVC.h"
 
 @interface AppDelegate ()
 
@@ -15,31 +16,138 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    
+    
+    UIStoryboard *storyBoard=[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    
+    MyshipmentVC *mMyshipmentVC=[storyBoard instantiateViewControllerWithIdentifier:@"MyshipmentVC"];
+    
+    self.navigationController=[[UINavigationController alloc] initWithRootViewController:mMyshipmentVC];
+    [self.navigationController setNavigationBarHidden:YES];
+    [self.window setRootViewController:self.navigationController];
+    [self.window makeKeyAndVisible];
+    
+    UIAlertView * alert;
+    
+    //We have to make sure that the Background App Refresh is enable for the Location updates to work in the background.
+    if([[UIApplication sharedApplication] backgroundRefreshStatus] == UIBackgroundRefreshStatusDenied){
+        
+        alert = [[UIAlertView alloc]initWithTitle:@""
+                                          message:@"The app doesn't work without the Background App Refresh enabled. To turn it on, go to Settings > General > Background App Refresh"
+                                         delegate:nil
+                                cancelButtonTitle:@"Ok"
+                                otherButtonTitles:nil, nil];
+        [alert show];
+        
+    }else if([[UIApplication sharedApplication] backgroundRefreshStatus] == UIBackgroundRefreshStatusRestricted){
+        
+        alert = [[UIAlertView alloc]initWithTitle:@""
+                                          message:@"The functions of this app are limited because the Background App Refresh is disable."
+                                         delegate:nil
+                                cancelButtonTitle:@"Ok"
+                                otherButtonTitles:nil, nil];
+        [alert show];
+        
+   }
+    
+    if ([application respondsToSelector:@selector(registerUserNotificationSettings:)]) {
+        [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil]];
+    }
+    
+    //else{
+//        
+//        self.locationTracker = [[LocationTracker alloc]init];
+//        [self.locationTracker startLocationTracking];
+//        
+//        NSString *urlString = [NSString stringWithFormat:@"http://f9d4311cf5294578983153f00f296cf4.cloudapp.net/Service1.svc/GetIntravel?loadID=%@",@"209"];
+//        
+//        NSLog(@"%@",urlString);
+//        
+//        NSURLSession *session = [NSURLSession sharedSession];
+//        [[session dataTaskWithURL:[NSURL URLWithString:urlString]
+//                completionHandler:^(NSData *data,
+//                                    NSURLResponse *response,
+//                                    NSError *error) {
+//                    NSHTTPURLResponse *httpResp = (NSHTTPURLResponse*) response;
+//                    if (!error) {
+//                        //---print out the result obtained---
+//                        NSString *result =[[NSString alloc] initWithBytes:[data bytes]
+//                                                                   length:[data length]
+//                                                                 encoding:NSUTF8StringEncoding];
+//                        
+//                        NSDictionary *res = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:&error];
+//                        NSLog(@"%@", [res objectForKey:@"Intravel"]);
+//                        value = [[res objectForKey:@"Intravel"] intValue];
+//                        
+//                        //---parse the JSON result---
+//                        
+//                        
+//                        NSLog(@"value:::%d...",value);
+//                    } else {
+//                        NSLog(@"%@", error.description);
+//                        
+//                        NSLog(@" fetch Failed...");
+//                    }
+//                }
+//          ] resume
+//         ];
+//        
+//        
+//        sleep(3);
+//        
+//        //Send the best location to server every 60 seconds
+//        //You may adjust the time interval depends on the need of your app.
+//        
+//        ///
+//        NSLog(@"value1:::%d...",(value/1000)/60);
+//        
+//        
+//        NSTimeInterval time = 600.0f;
+//        self.locationUpdateTimer =
+//        [NSTimer scheduledTimerWithTimeInterval:time
+//                                         target:self
+//                                       selector:@selector(updateLocation)
+//                                       userInfo:nil
+//                                        repeats:YES];
+//    }
+    
     return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+//-(void)updateLocation {
+//    NSLog(@"updateLocation");
+//    
+//    [self.locationTracker updateLocationToServer];
+//}
+
+- (void)applicationWillResignActive:(UIApplication *)application
+{
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+- (void)applicationDidEnterBackground:(UIApplication *)application
+{
 }
 
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+- (void)applicationWillEnterForeground:(UIApplication *)application
+{
 }
 
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+- (void)applicationWillTerminate:(UIApplication *)application
+{
 }
+
+-(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
+    
+    
+    // NSLog(@"didReceiveLocalNotification");
+}
+
+
 
 @end

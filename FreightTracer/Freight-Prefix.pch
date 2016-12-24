@@ -1,0 +1,23 @@
+//
+//  Freight-Prefix.pch
+//  FreightTracer
+//
+//  Created by Animesh Jana on 08/12/16.
+//  Copyright © 2016 Animesh Jana. All rights reserved.
+//
+
+#ifndef Freight_Prefix_pch
+#define Freight_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AFNetworking.h"
+#import "JSONKit.h"
+#import "SVProgressHUD.h"
+#import "Common.h"
+#import "CommonConstants.h"
+#import "InternetValidation.h"
+
+
+#endif /* Freight_Prefix_pch */

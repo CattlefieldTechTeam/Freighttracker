@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BE42C737C9DD032A30CC661 /* libPods-FreightTracer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B20E4E818071AE8B25841DD /* libPods-FreightTracer.a */; };
+		70243EE6BD8BCDDB4A62AFDD /* libPods-FreightTracerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9683CE4AF551773984054C /* libPods-FreightTracerTests.a */; };
+		B4F98BAFF337123CD4CE1FAD /* libPods-FreightTracerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 199D5258FFFBDFD72C1A6023 /* libPods-FreightTracerUITests.a */; };
+		CB1F0D1B1E092E4B0080049E /* substatuscell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1F0D1A1E092E4B0080049E /* substatuscell.m */; };
+		CB1F0D1E1E0936E40080049E /* Detaillist.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1F0D1D1E0936E40080049E /* Detaillist.m */; };
+		CB1F0D211E0965D30080049E /* Latevariancelist.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1F0D201E0965D30080049E /* Latevariancelist.m */; };
+		CB1F0D341E0ACC850080049E /* Stoplist.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1F0D331E0ACC850080049E /* Stoplist.m */; };
+		CB1F0D391E0AE5B00080049E /* PodPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1F0D351E0AE5B00080049E /* PodPageViewController.m */; };
+		CB1F0D3A1E0AE5B00080049E /* PODCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1F0D371E0AE5B00080049E /* PODCollectionViewCell.m */; };
+		CBB550F51E054B07005B5D13 /* AcknowledgementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB550F41E054B07005B5D13 /* AcknowledgementVC.m */; };
+		CBB550F91E06A1A4005B5D13 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB550F81E06A1A4005B5D13 /* DetailVC.m */; };
+		CBB550FD1E06A3CA005B5D13 /* Detailcell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB550FC1E06A3CA005B5D13 /* Detailcell.m */; };
 		CBE954F81DF898E300D9DEDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE954F71DF898E300D9DEDE /* main.m */; };
-		CBE954FB1DF898E300D9DEDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE954FA1DF898E300D9DEDE /* AppDelegate.m */; };
-		CBE954FE1DF898E300D9DEDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE954FD1DF898E300D9DEDE /* ViewController.m */; };
 		CBE955011DF898E300D9DEDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE954FF1DF898E300D9DEDE /* Main.storyboard */; };
 		CBE955031DF898E300D9DEDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE955021DF898E300D9DEDE /* Assets.xcassets */; };
 		CBE955061DF898E300D9DEDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE955041DF898E300D9DEDE /* LaunchScreen.storyboard */; };
 		CBE955111DF898E300D9DEDE /* FreightTracerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE955101DF898E300D9DEDE /* FreightTracerTests.m */; };
 		CBE9551C1DF898E300D9DEDE /* FreightTracerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9551B1DF898E300D9DEDE /* FreightTracerUITests.m */; };
+		CBE955341DF89AB700D9DEDE /* LocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9552F1DF89AB700D9DEDE /* LocationTracker.m */; };
+		CBE955351DF89AB700D9DEDE /* BackgroundTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE955301DF89AB700D9DEDE /* BackgroundTaskManager.m */; };
+		CBE955361DF89AB700D9DEDE /* LocationShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE955321DF89AB700D9DEDE /* LocationShareModel.m */; };
+		CBE955391DF89AE500D9DEDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE955371DF89AE500D9DEDE /* AppDelegate.m */; };
+		CBE955401DF8A5CC00D9DEDE /* MyshipmentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9553F1DF8A5CC00D9DEDE /* MyshipmentVC.m */; };
+		CBE955571DF9C1E100D9DEDE /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9554B1DF9C1E100D9DEDE /* Common.m */; };
+		CBE955581DF9C1E100D9DEDE /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9554E1DF9C1E100D9DEDE /* Constants.m */; };
+		CBE955591DF9C1E100D9DEDE /* InternetValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE955511DF9C1E100D9DEDE /* InternetValidation.m */; };
+		CBE9555A1DF9C1E100D9DEDE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE955541DF9C1E100D9DEDE /* Reachability.m */; };
+		CBE955601DFA911200D9DEDE /* MyshipmentdetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9555F1DFA911200D9DEDE /* MyshipmentdetailVC.m */; };
+		CBE955641DFA918F00D9DEDE /* Myshipmentdetailcell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE955631DFA918F00D9DEDE /* Myshipmentdetailcell.m */; };
+		CBE955681DFAA8EF00D9DEDE /* MyshipmentdetailList.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE955671DFAA8EF00D9DEDE /* MyshipmentdetailList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +57,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E215CA2F1F4CA49874B7A0C /* Pods-FreightTracer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreightTracer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreightTracer/Pods-FreightTracer.debug.xcconfig"; sourceTree = "<group>"; };
+		199D5258FFFBDFD72C1A6023 /* libPods-FreightTracerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FreightTracerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E99271B8DE752EE039112FE /* Pods-FreightTracer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreightTracer.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreightTracer/Pods-FreightTracer.release.xcconfig"; sourceTree = "<group>"; };
+		3DAD89C9AD6ED504B1AC82F7 /* Pods-FreightTracerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreightTracerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreightTracerUITests/Pods-FreightTracerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B20E4E818071AE8B25841DD /* libPods-FreightTracer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FreightTracer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58E199FD7EFFBED93B8DB40 /* Pods-FreightTracerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreightTracerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreightTracerTests/Pods-FreightTracerTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB1F0D191E092E4B0080049E /* substatuscell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = substatuscell.h; sourceTree = "<group>"; };
+		CB1F0D1A1E092E4B0080049E /* substatuscell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = substatuscell.m; sourceTree = "<group>"; };
+		CB1F0D1C1E0936E40080049E /* Detaillist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Detaillist.h; path = Detaillist/Detaillist.h; sourceTree = "<group>"; };
+		CB1F0D1D1E0936E40080049E /* Detaillist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Detaillist.m; path = Detaillist/Detaillist.m; sourceTree = "<group>"; };
+		CB1F0D1F1E0965D30080049E /* Latevariancelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Latevariancelist.h; sourceTree = "<group>"; };
+		CB1F0D201E0965D30080049E /* Latevariancelist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Latevariancelist.m; sourceTree = "<group>"; };
+		CB1F0D321E0ACC850080049E /* Stoplist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stoplist.h; path = Stoplist/Stoplist.h; sourceTree = "<group>"; };
+		CB1F0D331E0ACC850080049E /* Stoplist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stoplist.m; path = Stoplist/Stoplist.m; sourceTree = "<group>"; };
+		CB1F0D351E0AE5B00080049E /* PodPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PodPageViewController.m; sourceTree = "<group>"; };
+		CB1F0D361E0AE5B00080049E /* PODCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PODCollectionViewCell.h; sourceTree = "<group>"; };
+		CB1F0D371E0AE5B00080049E /* PODCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PODCollectionViewCell.m; sourceTree = "<group>"; };
+		CB1F0D381E0AE5B00080049E /* PodPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PodPageViewController.h; sourceTree = "<group>"; };
+		CBB550F31E054B07005B5D13 /* AcknowledgementVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AcknowledgementVC.h; path = AcknowledgementVC/AcknowledgementVC.h; sourceTree = "<group>"; };
+		CBB550F41E054B07005B5D13 /* AcknowledgementVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AcknowledgementVC.m; path = AcknowledgementVC/AcknowledgementVC.m; sourceTree = "<group>"; };
+		CBB550F71E06A1A4005B5D13 /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailVC.h; path = DetailVC/DetailVC.h; sourceTree = "<group>"; };
+		CBB550F81E06A1A4005B5D13 /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailVC.m; path = DetailVC/DetailVC.m; sourceTree = "<group>"; };
+		CBB550FB1E06A3CA005B5D13 /* Detailcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detailcell.h; sourceTree = "<group>"; };
+		CBB550FC1E06A3CA005B5D13 /* Detailcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detailcell.m; sourceTree = "<group>"; };
 		CBE954F31DF898E300D9DEDE /* FreightTracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreightTracer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE954F71DF898E300D9DEDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CBE954F91DF898E300D9DEDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CBE954FA1DF898E300D9DEDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CBE954FC1DF898E300D9DEDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CBE954FD1DF898E300D9DEDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CBE955001DF898E300D9DEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBE955021DF898E300D9DEDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBE955051DF898E300D9DEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +93,41 @@
 		CBE955171DF898E300D9DEDE /* FreightTracerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreightTracerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE9551B1DF898E300D9DEDE /* FreightTracerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreightTracerUITests.m; sourceTree = "<group>"; };
 		CBE9551D1DF898E300D9DEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE9552E1DF89AB700D9DEDE /* BackgroundTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundTaskManager.h; sourceTree = "<group>"; };
+		CBE9552F1DF89AB700D9DEDE /* LocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTracker.m; sourceTree = "<group>"; };
+		CBE955301DF89AB700D9DEDE /* BackgroundTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundTaskManager.m; sourceTree = "<group>"; };
+		CBE955311DF89AB700D9DEDE /* LocationShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationShareModel.h; sourceTree = "<group>"; };
+		CBE955321DF89AB700D9DEDE /* LocationShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationShareModel.m; sourceTree = "<group>"; };
+		CBE955331DF89AB700D9DEDE /* LocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTracker.h; sourceTree = "<group>"; };
+		CBE955371DF89AE500D9DEDE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBE955381DF89AE500D9DEDE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBE9553E1DF8A5CC00D9DEDE /* MyshipmentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyshipmentVC.h; sourceTree = "<group>"; };
+		CBE9553F1DF8A5CC00D9DEDE /* MyshipmentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyshipmentVC.m; sourceTree = "<group>"; };
+		CBE955411DF9B2D500D9DEDE /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		CBE955421DF9B2D500D9DEDE /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		CBE955431DF9B2D500D9DEDE /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		CBE955441DF9B2D500D9DEDE /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		CBE955451DF9B2D500D9DEDE /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		CBE955461DF9B2D500D9DEDE /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		CBE9554A1DF9C1E100D9DEDE /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		CBE9554B1DF9C1E100D9DEDE /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		CBE9554C1DF9C1E100D9DEDE /* CommonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonConstants.h; sourceTree = "<group>"; };
+		CBE9554D1DF9C1E100D9DEDE /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CBE9554E1DF9C1E100D9DEDE /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		CBE955501DF9C1E100D9DEDE /* InternetValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetValidation.h; sourceTree = "<group>"; };
+		CBE955511DF9C1E100D9DEDE /* InternetValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetValidation.m; sourceTree = "<group>"; };
+		CBE955531DF9C1E100D9DEDE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CBE955541DF9C1E100D9DEDE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CBE9555C1DF9C27500D9DEDE /* Freight-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Freight-Prefix.pch"; sourceTree = "<group>"; };
+		CBE9555E1DFA911200D9DEDE /* MyshipmentdetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyshipmentdetailVC.h; path = MyshipmentdetailVC/MyshipmentdetailVC.h; sourceTree = "<group>"; };
+		CBE9555F1DFA911200D9DEDE /* MyshipmentdetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyshipmentdetailVC.m; path = MyshipmentdetailVC/MyshipmentdetailVC.m; sourceTree = "<group>"; };
+		CBE955621DFA918F00D9DEDE /* Myshipmentdetailcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Myshipmentdetailcell.h; path = Myshipmentdetailcell/Myshipmentdetailcell.h; sourceTree = "<group>"; };
+		CBE955631DFA918F00D9DEDE /* Myshipmentdetailcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Myshipmentdetailcell.m; path = Myshipmentdetailcell/Myshipmentdetailcell.m; sourceTree = "<group>"; };
+		CBE955661DFAA8EF00D9DEDE /* MyshipmentdetailList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyshipmentdetailList.h; path = MyshipmentdetailList/MyshipmentdetailList.h; sourceTree = "<group>"; };
+		CBE955671DFAA8EF00D9DEDE /* MyshipmentdetailList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyshipmentdetailList.m; path = MyshipmentdetailList/MyshipmentdetailList.m; sourceTree = "<group>"; };
+		DB0A4AB2BB945B36EEB0EF88 /* Pods-FreightTracerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreightTracerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreightTracerTests/Pods-FreightTracerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F39F6B5F53D71844086E0765 /* Pods-FreightTracerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreightTracerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreightTracerUITests/Pods-FreightTracerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC9683CE4AF551773984054C /* libPods-FreightTracerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FreightTracerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BE42C737C9DD032A30CC661 /* libPods-FreightTracer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70243EE6BD8BCDDB4A62AFDD /* libPods-FreightTracerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +151,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F98BAFF337123CD4CE1FAD /* libPods-FreightTracerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18338489A94856491980B1E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E215CA2F1F4CA49874B7A0C /* Pods-FreightTracer.debug.xcconfig */,
+				2E99271B8DE752EE039112FE /* Pods-FreightTracer.release.xcconfig */,
+				DB0A4AB2BB945B36EEB0EF88 /* Pods-FreightTracerTests.debug.xcconfig */,
+				B58E199FD7EFFBED93B8DB40 /* Pods-FreightTracerTests.release.xcconfig */,
+				3DAD89C9AD6ED504B1AC82F7 /* Pods-FreightTracerUITests.debug.xcconfig */,
+				F39F6B5F53D71844086E0765 /* Pods-FreightTracerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C16CDAEB818F1F4403F8A1A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B20E4E818071AE8B25841DD /* libPods-FreightTracer.a */,
+				FC9683CE4AF551773984054C /* libPods-FreightTracerTests.a */,
+				199D5258FFFBDFD72C1A6023 /* libPods-FreightTracerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB1F0D181E092E090080049E /* Substatuscell */ = {
+			isa = PBXGroup;
+			children = (
+				CB1F0D191E092E4B0080049E /* substatuscell.h */,
+				CB1F0D1A1E092E4B0080049E /* substatuscell.m */,
+			);
+			name = Substatuscell;
+			sourceTree = "<group>";
+		};
+		CB1F0D221E0AA1680080049E /* Podupload */ = {
+			isa = PBXGroup;
+			children = (
+				CB1F0D351E0AE5B00080049E /* PodPageViewController.m */,
+				CB1F0D361E0AE5B00080049E /* PODCollectionViewCell.h */,
+				CB1F0D371E0AE5B00080049E /* PODCollectionViewCell.m */,
+				CB1F0D381E0AE5B00080049E /* PodPageViewController.h */,
+			);
+			name = Podupload;
+			sourceTree = "<group>";
+		};
+		CBB550F21E054AD0005B5D13 /* AcknowledgementVC */ = {
+			isa = PBXGroup;
+			children = (
+				CBB550F31E054B07005B5D13 /* AcknowledgementVC.h */,
+				CBB550F41E054B07005B5D13 /* AcknowledgementVC.m */,
+			);
+			name = AcknowledgementVC;
+			sourceTree = "<group>";
+		};
+		CBB550F61E06A172005B5D13 /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				CBB550F71E06A1A4005B5D13 /* DetailVC.h */,
+				CBB550F81E06A1A4005B5D13 /* DetailVC.m */,
+			);
+			name = DetailVC;
+			sourceTree = "<group>";
+		};
+		CBB550FA1E06A394005B5D13 /* Detailcell */ = {
+			isa = PBXGroup;
+			children = (
+				CBB550FB1E06A3CA005B5D13 /* Detailcell.h */,
+				CBB550FC1E06A3CA005B5D13 /* Detailcell.m */,
+			);
+			name = Detailcell;
+			sourceTree = "<group>";
+		};
 		CBE954EA1DF898E300D9DEDE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +235,8 @@
 				CBE9550F1DF898E300D9DEDE /* FreightTracerTests */,
 				CBE9551A1DF898E300D9DEDE /* FreightTracerUITests */,
 				CBE954F41DF898E300D9DEDE /* Products */,
+				18338489A94856491980B1E4 /* Pods */,
+				C16CDAEB818F1F4403F8A1A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +253,15 @@
 		CBE954F51DF898E300D9DEDE /* FreightTracer */ = {
 			isa = PBXGroup;
 			children = (
-				CBE954F91DF898E300D9DEDE /* AppDelegate.h */,
-				CBE954FA1DF898E300D9DEDE /* AppDelegate.m */,
-				CBE954FC1DF898E300D9DEDE /* ViewController.h */,
-				CBE954FD1DF898E300D9DEDE /* ViewController.m */,
-				CBE954FF1DF898E300D9DEDE /* Main.storyboard */,
-				CBE955021DF898E300D9DEDE /* Assets.xcassets */,
-				CBE955041DF898E300D9DEDE /* LaunchScreen.storyboard */,
+				CBE955651DFAA8BB00D9DEDE /* Object Class */,
+				CBE955611DFA914300D9DEDE /* Custom cells */,
+				CBE955481DF9C1B900D9DEDE /* Utility */,
+				CBE955471DF9B2DB00D9DEDE /* Fonts */,
+				CBE9552D1DF89A4300D9DEDE /* Background Classes */,
+				CBE9552C1DF899BC00D9DEDE /* Assets */,
+				CBE9552B1DF899A700D9DEDE /* ViewController */,
+				CBE9552A1DF8995900D9DEDE /* Nib */,
+				CBE955291DF8993600D9DEDE /* AppDelegate */,
 				CBE955071DF898E300D9DEDE /* Info.plist */,
 				CBE954F61DF898E300D9DEDE /* Supporting Files */,
 			);
@@ -118,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				CBE954F71DF898E300D9DEDE /* main.m */,
+				CBE9555C1DF9C27500D9DEDE /* Freight-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +295,154 @@
 			path = FreightTracerUITests;
 			sourceTree = "<group>";
 		};
+		CBE955291DF8993600D9DEDE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CBE955371DF89AE500D9DEDE /* AppDelegate.m */,
+				CBE955381DF89AE500D9DEDE /* AppDelegate.h */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CBE9552A1DF8995900D9DEDE /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				CBE954FF1DF898E300D9DEDE /* Main.storyboard */,
+				CBE955041DF898E300D9DEDE /* LaunchScreen.storyboard */,
+			);
+			name = Nib;
+			sourceTree = "<group>";
+		};
+		CBE9552B1DF899A700D9DEDE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB1F0D221E0AA1680080049E /* Podupload */,
+				CBB550F61E06A172005B5D13 /* DetailVC */,
+				CBB550F21E054AD0005B5D13 /* AcknowledgementVC */,
+				CBE9555D1DFA90F300D9DEDE /* MyshipmentdetailVC */,
+				CBE9553D1DF8A5CC00D9DEDE /* MyshipmentVC */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		CBE9552C1DF899BC00D9DEDE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CBE955021DF898E300D9DEDE /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		CBE9552D1DF89A4300D9DEDE /* Background Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CBE9552E1DF89AB700D9DEDE /* BackgroundTaskManager.h */,
+				CBE9552F1DF89AB700D9DEDE /* LocationTracker.m */,
+				CBE955301DF89AB700D9DEDE /* BackgroundTaskManager.m */,
+				CBE955311DF89AB700D9DEDE /* LocationShareModel.h */,
+				CBE955321DF89AB700D9DEDE /* LocationShareModel.m */,
+				CBE955331DF89AB700D9DEDE /* LocationTracker.h */,
+			);
+			name = "Background Classes";
+			sourceTree = "<group>";
+		};
+		CBE9553D1DF8A5CC00D9DEDE /* MyshipmentVC */ = {
+			isa = PBXGroup;
+			children = (
+				CBE9553E1DF8A5CC00D9DEDE /* MyshipmentVC.h */,
+				CBE9553F1DF8A5CC00D9DEDE /* MyshipmentVC.m */,
+			);
+			path = MyshipmentVC;
+			sourceTree = "<group>";
+		};
+		CBE955471DF9B2DB00D9DEDE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CBE955411DF9B2D500D9DEDE /* Roboto-Black.ttf */,
+				CBE955421DF9B2D500D9DEDE /* Roboto-Bold.ttf */,
+				CBE955431DF9B2D500D9DEDE /* Roboto-Light.ttf */,
+				CBE955441DF9B2D500D9DEDE /* Roboto-Medium.ttf */,
+				CBE955451DF9B2D500D9DEDE /* Roboto-Regular.ttf */,
+				CBE955461DF9B2D500D9DEDE /* Roboto-Thin.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		CBE955481DF9C1B900D9DEDE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CBE955491DF9C1E100D9DEDE /* Common */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		CBE955491DF9C1E100D9DEDE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CBE9554A1DF9C1E100D9DEDE /* Common.h */,
+				CBE9554B1DF9C1E100D9DEDE /* Common.m */,
+				CBE9554C1DF9C1E100D9DEDE /* CommonConstants.h */,
+				CBE9554D1DF9C1E100D9DEDE /* Constants.h */,
+				CBE9554E1DF9C1E100D9DEDE /* Constants.m */,
+				CBE9554F1DF9C1E100D9DEDE /* InternetValidation */,
+				CBE955521DF9C1E100D9DEDE /* Reachability */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CBE9554F1DF9C1E100D9DEDE /* InternetValidation */ = {
+			isa = PBXGroup;
+			children = (
+				CBE955501DF9C1E100D9DEDE /* InternetValidation.h */,
+				CBE955511DF9C1E100D9DEDE /* InternetValidation.m */,
+			);
+			path = InternetValidation;
+			sourceTree = "<group>";
+		};
+		CBE955521DF9C1E100D9DEDE /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				CBE955531DF9C1E100D9DEDE /* Reachability.h */,
+				CBE955541DF9C1E100D9DEDE /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		CBE9555D1DFA90F300D9DEDE /* MyshipmentdetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				CBE9555E1DFA911200D9DEDE /* MyshipmentdetailVC.h */,
+				CBE9555F1DFA911200D9DEDE /* MyshipmentdetailVC.m */,
+			);
+			name = MyshipmentdetailVC;
+			sourceTree = "<group>";
+		};
+		CBE955611DFA914300D9DEDE /* Custom cells */ = {
+			isa = PBXGroup;
+			children = (
+				CB1F0D181E092E090080049E /* Substatuscell */,
+				CBB550FA1E06A394005B5D13 /* Detailcell */,
+				CBE955621DFA918F00D9DEDE /* Myshipmentdetailcell.h */,
+				CBE955631DFA918F00D9DEDE /* Myshipmentdetailcell.m */,
+			);
+			name = "Custom cells";
+			sourceTree = "<group>";
+		};
+		CBE955651DFAA8BB00D9DEDE /* Object Class */ = {
+			isa = PBXGroup;
+			children = (
+				CBE955661DFAA8EF00D9DEDE /* MyshipmentdetailList.h */,
+				CBE955671DFAA8EF00D9DEDE /* MyshipmentdetailList.m */,
+				CB1F0D1C1E0936E40080049E /* Detaillist.h */,
+				CB1F0D1D1E0936E40080049E /* Detaillist.m */,
+				CB1F0D1F1E0965D30080049E /* Latevariancelist.h */,
+				CB1F0D201E0965D30080049E /* Latevariancelist.m */,
+				CB1F0D321E0ACC850080049E /* Stoplist.h */,
+				CB1F0D331E0ACC850080049E /* Stoplist.m */,
+			);
+			name = "Object Class";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +450,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBE955201DF898E300D9DEDE /* Build configuration list for PBXNativeTarget "FreightTracer" */;
 			buildPhases = (
+				3D8003FA7B0A1BC052AC0AA7 /* 📦 Check Pods Manifest.lock */,
 				CBE954EF1DF898E300D9DEDE /* Sources */,
 				CBE954F01DF898E300D9DEDE /* Frameworks */,
 				CBE954F11DF898E300D9DEDE /* Resources */,
+				B0C0676A3B66E502E34DF284 /* 📦 Embed Pods Frameworks */,
+				0240C719CB7E9602882079E4 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +470,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBE955231DF898E300D9DEDE /* Build configuration list for PBXNativeTarget "FreightTracerTests" */;
 			buildPhases = (
+				8ADA796484D69FFF9C967B5A /* 📦 Check Pods Manifest.lock */,
 				CBE955081DF898E300D9DEDE /* Sources */,
 				CBE955091DF898E300D9DEDE /* Frameworks */,
 				CBE9550A1DF898E300D9DEDE /* Resources */,
+				EE13EDAD9928509CE413AD54 /* 📦 Embed Pods Frameworks */,
+				2CE70F9A7D043752C5006337 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +491,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBE955261DF898E300D9DEDE /* Build configuration list for PBXNativeTarget "FreightTracerUITests" */;
 			buildPhases = (
+				834E03854756852C693C849C /* 📦 Check Pods Manifest.lock */,
 				CBE955131DF898E300D9DEDE /* Sources */,
 				CBE955141DF898E300D9DEDE /* Frameworks */,
 				CBE955151DF898E300D9DEDE /* Resources */,
+				A7F696D3AD40A3ECFCF1D503 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +518,11 @@
 				TargetAttributes = {
 					CBE954F21DF898E300D9DEDE = {
 						CreatedOnToolsVersion = 7.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					CBE9550B1DF898E300D9DEDE = {
 						CreatedOnToolsVersion = 7.3;
@@ -265,14 +581,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0240C719CB7E9602882079E4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreightTracer/Pods-FreightTracer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CE70F9A7D043752C5006337 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreightTracerTests/Pods-FreightTracerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D8003FA7B0A1BC052AC0AA7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		834E03854756852C693C849C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8ADA796484D69FFF9C967B5A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F696D3AD40A3ECFCF1D503 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreightTracerUITests/Pods-FreightTracerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0C0676A3B66E502E34DF284 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreightTracer/Pods-FreightTracer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE13EDAD9928509CE413AD54 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreightTracerTests/Pods-FreightTracerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CBE954EF1DF898E300D9DEDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE954FE1DF898E300D9DEDE /* ViewController.m in Sources */,
-				CBE954FB1DF898E300D9DEDE /* AppDelegate.m in Sources */,
+				CB1F0D211E0965D30080049E /* Latevariancelist.m in Sources */,
+				CBE955351DF89AB700D9DEDE /* BackgroundTaskManager.m in Sources */,
+				CB1F0D3A1E0AE5B00080049E /* PODCollectionViewCell.m in Sources */,
+				CBB550F51E054B07005B5D13 /* AcknowledgementVC.m in Sources */,
+				CBE955591DF9C1E100D9DEDE /* InternetValidation.m in Sources */,
 				CBE954F81DF898E300D9DEDE /* main.m in Sources */,
+				CB1F0D1E1E0936E40080049E /* Detaillist.m in Sources */,
+				CBE955361DF89AB700D9DEDE /* LocationShareModel.m in Sources */,
+				CB1F0D341E0ACC850080049E /* Stoplist.m in Sources */,
+				CBE9555A1DF9C1E100D9DEDE /* Reachability.m in Sources */,
+				CBB550F91E06A1A4005B5D13 /* DetailVC.m in Sources */,
+				CBE955581DF9C1E100D9DEDE /* Constants.m in Sources */,
+				CB1F0D1B1E092E4B0080049E /* substatuscell.m in Sources */,
+				CBE955641DFA918F00D9DEDE /* Myshipmentdetailcell.m in Sources */,
+				CBE955341DF89AB700D9DEDE /* LocationTracker.m in Sources */,
+				CBB550FD1E06A3CA005B5D13 /* Detailcell.m in Sources */,
+				CBE955681DFAA8EF00D9DEDE /* MyshipmentdetailList.m in Sources */,
+				CB1F0D391E0AE5B00080049E /* PodPageViewController.m in Sources */,
+				CBE955401DF8A5CC00D9DEDE /* MyshipmentVC.m in Sources */,
+				CBE955391DF89AE500D9DEDE /* AppDelegate.m in Sources */,
+				CBE955601DFA911200D9DEDE /* MyshipmentdetailVC.m in Sources */,
+				CBE955571DF9C1E100D9DEDE /* Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +871,11 @@
 		};
 		CBE955211DF898E300D9DEDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E215CA2F1F4CA49874B7A0C /* Pods-FreightTracer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FreightTracer/Freight-Prefix.pch";
 				INFOPLIST_FILE = FreightTracer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ctpil.FreightTracer;
@@ -424,8 +885,11 @@
 		};
 		CBE955221DF898E300D9DEDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E99271B8DE752EE039112FE /* Pods-FreightTracer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FreightTracer/Freight-Prefix.pch";
 				INFOPLIST_FILE = FreightTracer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ctpil.FreightTracer;
@@ -435,6 +899,7 @@
 		};
 		CBE955241DF898E300D9DEDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0A4AB2BB945B36EEB0EF88 /* Pods-FreightTracerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FreightTracerTests/Info.plist;
@@ -447,6 +912,7 @@
 		};
 		CBE955251DF898E300D9DEDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58E199FD7EFFBED93B8DB40 /* Pods-FreightTracerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FreightTracerTests/Info.plist;
@@ -459,6 +925,7 @@
 		};
 		CBE955271DF898E300D9DEDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DAD89C9AD6ED504B1AC82F7 /* Pods-FreightTracerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FreightTracerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -470,6 +937,7 @@
 		};
 		CBE955281DF898E300D9DEDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39F6B5F53D71844086E0765 /* Pods-FreightTracerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FreightTracerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +966,7 @@
 				CBE955221DF898E300D9DEDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBE955231DF898E300D9DEDE /* Build configuration list for PBXNativeTarget "FreightTracerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +975,7 @@
 				CBE955251DF898E300D9DEDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBE955261DF898E300D9DEDE /* Build configuration list for PBXNativeTarget "FreightTracerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +984,7 @@
 				CBE955281DF898E300D9DEDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
